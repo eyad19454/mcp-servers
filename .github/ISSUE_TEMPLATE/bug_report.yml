@@ -1,0 +1,67 @@
+name: Bug Report
+description: Report a bug in any MCP server
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: dropdown
+    id: server
+    attributes:
+      label: MCP Server
+      description: Which MCP server is affected?
+      options:
+        - AWS MCP Server
+        - GCP MCP Server
+        - Azure MCP Server
+        - Salesforce MCP Server
+        - HubSpot MCP Server
+        - Jenkins MCP Server
+        - GitLab MCP Server
+        - ArgoCD MCP Server
+        - Power BI MCP Server
+        - Tableau MCP Server
+        - QuickBooks MCP Server
+        - Xero MCP Server
+        - Mailchimp MCP Server
+        - ServiceNow MCP Server
+        - UiPath MCP Server
+        - Rancher MCP Server
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Clear description of the bug
+      placeholder: Describe what happened
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How to reproduce the issue
+      placeholder: |
+        1. Configure server with...
+        2. Run command...
+        3. See error...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Your environment details
+      placeholder: |
+        - OS: 
+        - Python version:
+        - MCP server version:
+    validations:
+      required: true
