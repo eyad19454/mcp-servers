@@ -12,69 +12,69 @@ This collection provides production-ready MCP servers for major enterprise platf
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| [AWS MCP Server](https://github.com/asklokesh/aws-mcp-server) | Amazon Web Services - comprehensive cloud services integration | ✅ Ready |
-| [GCP MCP Server](https://github.com/asklokesh/gcp-mcp-server) | Google Cloud Platform - complete GCP services integration | ✅ Ready |
-| [Azure MCP Server](https://github.com/asklokesh/azure-mcp-server) | Microsoft Azure - full Azure services integration | ✅ Ready |
+| [AWS MCP Server](https://github.com/LokiMCPUniverse/aws-mcp-server) | Amazon Web Services - comprehensive cloud services integration | Ready |
+| [GCP MCP Server](https://github.com/LokiMCPUniverse/gcp-mcp-server) | Google Cloud Platform - complete GCP services integration | Ready |
+| [Azure MCP Server](https://github.com/LokiMCPUniverse/azure-mcp-server) | Microsoft Azure - full Azure services integration | Ready |
 
 ### CRM & Sales Platforms
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| [Salesforce MCP Server](https://github.com/asklokesh/salesforce-mcp-server) | Complete Salesforce CRM, Sales Cloud, Service Cloud integration | ✅ Ready |
-| [HubSpot MCP Server](https://github.com/asklokesh/hubspot-mcp-server) | HubSpot CRM, Marketing, Sales, and Service Hub integration | ✅ Ready |
-| [Zoho CRM MCP Server](https://github.com/asklokesh/zoho-crm-mcp-server) | Zoho CRM suite integration | ✅ Ready |
+| [Salesforce MCP Server](https://github.com/LokiMCPUniverse/salesforce-mcp-server) | Complete Salesforce CRM, Sales Cloud, Service Cloud integration | Ready |
+| [HubSpot MCP Server](https://github.com/LokiMCPUniverse/hubspot-mcp-server) | HubSpot CRM, Marketing, Sales, and Service Hub integration | Ready |
+| [Zoho CRM MCP Server](https://github.com/LokiMCPUniverse/zoho-crm-mcp-server) | Zoho CRM suite integration | Ready |
 
 ### DevOps & CI/CD
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| [Jenkins MCP Server](https://github.com/asklokesh/jenkins-mcp-server) | Jenkins CI/CD automation server integration | ✅ Ready |
-| [GitLab MCP Server](https://github.com/asklokesh/gitlab-mcp-server) | GitLab DevOps platform integration | ✅ Ready |
-| [ArgoCD MCP Server](https://github.com/asklokesh/argocd-mcp-server) | GitOps continuous delivery for Kubernetes | ✅ Ready |
-| [Harness MCP Server](https://github.com/asklokesh/harness-mcp-server) | Continuous delivery and cloud cost management | ✅ Ready |
-| [Rundeck MCP Server](https://github.com/asklokesh/rundeck-mcp-server) | Runbook automation and job scheduling | ✅ Ready |
+| [Jenkins MCP Server](https://github.com/LokiMCPUniverse/jenkins-mcp-server) | Jenkins CI/CD automation server integration | Ready |
+| [GitLab MCP Server](https://github.com/LokiMCPUniverse/gitlab-mcp-server) | GitLab DevOps platform integration | Ready |
+| [ArgoCD MCP Server](https://github.com/LokiMCPUniverse/argocd-mcp-server) | GitOps continuous delivery for Kubernetes | Ready |
+| [Harness MCP Server](https://github.com/LokiMCPUniverse/harness-mcp-server) | Continuous delivery and cloud cost management | Ready |
+| [Rundeck MCP Server](https://github.com/LokiMCPUniverse/rundeck-mcp-server) | Runbook automation and job scheduling | Ready |
 
 ### Container & Orchestration
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| [Rancher MCP Server](https://github.com/asklokesh/rancher-mcp-server) | Kubernetes management platform | ✅ Ready |
+| [Rancher MCP Server](https://github.com/LokiMCPUniverse/rancher-mcp-server) | Kubernetes management platform | Ready |
 
 ### Business Intelligence & Analytics
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| [Power BI MCP Server](https://github.com/asklokesh/powerbi-mcp-server) | Microsoft Power BI analytics and visualization | ✅ Ready |
-| [Tableau MCP Server](https://github.com/asklokesh/tableau-mcp-server) | Tableau data visualization platform | ✅ Ready |
+| [Power BI MCP Server](https://github.com/LokiMCPUniverse/powerbi-mcp-server) | Microsoft Power BI analytics and visualization | Ready |
+| [Tableau MCP Server](https://github.com/LokiMCPUniverse/tableau-mcp-server) | Tableau data visualization platform | Ready |
 
 ### Accounting & Finance
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| [QuickBooks MCP Server](https://github.com/asklokesh/quickbooks-mcp-server) | QuickBooks accounting software integration | ✅ Ready |
-| [Xero MCP Server](https://github.com/asklokesh/xero-mcp-server) | Xero cloud accounting platform | ✅ Ready |
-| [FreshBooks MCP Server](https://github.com/asklokesh/freshbooks-mcp-server) | FreshBooks small business accounting | ✅ Ready |
+| [QuickBooks MCP Server](https://github.com/LokiMCPUniverse/quickbooks-mcp-server) | QuickBooks accounting software integration | Ready |
+| [Xero MCP Server](https://github.com/LokiMCPUniverse/xero-mcp-server) | Xero cloud accounting platform | Ready |
+| [FreshBooks MCP Server](https://github.com/LokiMCPUniverse/freshbooks-mcp-server) | FreshBooks small business accounting | Ready |
 
 ### Marketing & Communication
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| [Mailchimp MCP Server](https://github.com/asklokesh/mailchimp-mcp-server) | Email marketing and automation platform | ✅ Ready |
-| [Hootsuite MCP Server](https://github.com/asklokesh/hootsuite-mcp-server) | Social media management platform | ✅ Ready |
-| [Chanty MCP Server](https://github.com/asklokesh/chanty-mcp-server) | Team collaboration platform | ✅ Ready |
+| [Mailchimp MCP Server](https://github.com/LokiMCPUniverse/mailchimp-mcp-server) | Email marketing and automation platform | Ready |
+| [Hootsuite MCP Server](https://github.com/LokiMCPUniverse/hootsuite-mcp-server) | Social media management platform | Ready |
+| [Chanty MCP Server](https://github.com/LokiMCPUniverse/chanty-mcp-server) | Team collaboration platform | Ready |
 
 ### IT Service Management & Automation
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| [ServiceNow MCP Server](https://github.com/asklokesh/servicenow-mcp-server) | IT service management platform | ✅ Ready |
-| [UiPath MCP Server](https://github.com/asklokesh/uipath-mcp-server) | Robotic Process Automation (RPA) platform | ✅ Ready |
+| [ServiceNow MCP Server](https://github.com/LokiMCPUniverse/servicenow-mcp-server) | IT service management platform | Ready |
+| [UiPath MCP Server](https://github.com/LokiMCPUniverse/uipath-mcp-server) | Robotic Process Automation (RPA) platform | Ready |
 
 ### Version Control
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| [Git MCP Server](https://github.com/asklokesh/git-mcp-server) | Git repository operations and management | ✅ Ready |
+| [Git MCP Server](https://github.com/LokiMCPUniverse/git-mcp-server) | Git repository operations and management | Ready |
 
 ## Key Features
 
@@ -196,7 +196,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## Security
 
-- Report security vulnerabilities to security@asklokesh.com
+- Report security vulnerabilities to security@lokimcpuniverse.com
 - See [SECURITY.md](SECURITY.md) for our security policy
 
 ## Support
@@ -215,6 +215,7 @@ All servers in this collection are released under the MIT License. See individua
 
 - GitHub: [@asklokesh](https://github.com/asklokesh)
 - LinkedIn: [AskLokesh](https://www.linkedin.com/in/iamlokesh/)
+- Organization: [LokiMCPUniverse](https://github.com/LokiMCPUniverse)
 
 ---
 
