@@ -1,5 +1,21 @@
 # MCP Servers Collection
 
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=DC143C&labelColor=2B2B2B)
+![GitHub forks](https://img.shields.io/github/forks/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=696969&labelColor=2B2B2B)
+![GitHub issues](https://img.shields.io/github/issues/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=DC143C&labelColor=2B2B2B)
+![GitHub license](https://img.shields.io/github/license/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=696969&labelColor=2B2B2B)
+
+![Servers Available](https://img.shields.io/badge/MCP_Servers-24-DC143C?style=for-the-badge&labelColor=2B2B2B)
+![Production Ready](https://img.shields.io/badge/Status-Production_Ready-696969?style=for-the-badge&labelColor=2B2B2B)
+![Enterprise Grade](https://img.shields.io/badge/Grade-Enterprise-DC143C?style=for-the-badge&labelColor=2B2B2B)
+
+[![GitHub Discussions](https://img.shields.io/github/discussions/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=696969&labelColor=2B2B2B)](https://github.com/LokiMCPUniverse/mcp-servers/discussions)
+[![Contribute](https://img.shields.io/badge/Contribute-Welcome-DC143C?style=for-the-badge&labelColor=2B2B2B)](https://github.com/LokiMCPUniverse/mcp-servers/blob/main/.github/CONTRIBUTING.md)
+
+</div>
+
 A comprehensive collection of Model Context Protocol (MCP) servers for integrating enterprise APIs with GenAI applications.
 
 ## Overview
